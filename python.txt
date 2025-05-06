@@ -4,8 +4,8 @@ def DivExp(a,b):
   assert a>0, "a should be greater than 0"
   try:
     c=a/b
-  except zero Divisionerror:
-    print("values of b cannot be zero")
+  except zero Division error:
+    print("values of b cannot be zee")
     sys.exit(0)
   else:
     return c
@@ -18,7 +18,7 @@ print(val1,val2,val3)
 
 #multi digit frequency
 num=input("Enter the number:")
-print("Entered number is :",num)
+print("Entered number is :",nun)
 uniqdig=set(num)
 for elem in uniqdig:
   print(elem,"occurs",num.count(elem),"times")
